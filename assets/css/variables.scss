@@ -1,0 +1,13 @@
+// Brand
+$black : #000000;
+$white : #ffffff;
+$purple : #5f27cd;
+$bluebell : #341f97;
+
+// Mixin
+@mixin borderRadius($method) {
+    border-radius: $method;
+    -webkit-border-radius: $method;
+    -moz-border-radius: $method;
+    -o-border-radius: $method;
+}
